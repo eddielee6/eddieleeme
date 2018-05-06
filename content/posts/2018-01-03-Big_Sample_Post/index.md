@@ -2,6 +2,7 @@
 title: "Big Test"
 category: "moar"
 date: "2018-01-03"
+author: "eddie"
 slug: "Big-Sample_Test"
 tags:
     - test
