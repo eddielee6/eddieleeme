@@ -42,7 +42,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     const indexPage = path.resolve("src/templates/index.jsx");
     const postPage = path.resolve("src/templates/post.jsx");
     const tagPage = path.resolve("src/templates/tag.jsx");
-    const categoryPage = path.resolve("src/templates/category.jsx");
     const authorPage = path.resolve("src/templates/author.jsx");
 
     if (
@@ -71,7 +70,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                     tags
                     cover
                     date
-                    category
                     author
                   }
                   fields {
@@ -115,7 +113,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
         const tagSet = new Set();
         const tagMap = new Map();
-        const categorySet = new Set();
         const authorSet = new Set();
         authorSet.add(siteConfig.blogAuthorId);
 
@@ -128,10 +125,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               array.push(edge);
               tagMap.set(tag, array);
             });
-          }
-
-          if (edge.node.frontmatter.category) {
-            categorySet.add(edge.node.frontmatter.category);
           }
 
           if (edge.node.frontmatter.author) {
@@ -152,17 +145,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             limit: siteConfig.sitePaginationLimit,
             context: {
               tag
-            }
-          });
-        });
-
-        const categoryList = Array.from(categorySet);
-        categoryList.forEach(category => {
-          createPage({
-            path: `/categories/${_.kebabCase(category)}/`,
-            component: categoryPage,
-            context: {
-              category
             }
           });
         });

@@ -29,9 +29,6 @@ function parsePost(post, slug) {
   if (!result.id) {
     result.id = slug;
   }
-  if (!result.id) {
-    result.category_id = config.postDefaultCategoryID;
-  }
   return result;
 }
 
@@ -156,7 +153,6 @@ export const pageQuery = graphql`
         title
         cover
         date
-        category
         tags
         author
       }
