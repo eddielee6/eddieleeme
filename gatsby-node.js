@@ -42,7 +42,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     const indexPage = path.resolve("src/templates/index.jsx");
     const postPage = path.resolve("src/templates/post.jsx");
     const tagPage = path.resolve("src/templates/tag.jsx");
-    const authorPage = path.resolve("src/templates/author.jsx");
 
     if (
       !fs.existsSync(
@@ -145,17 +144,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             limit: siteConfig.sitePaginationLimit,
             context: {
               tag
-            }
-          });
-        });
-
-        const authorList = Array.from(authorSet);
-        authorList.forEach(author => {
-          createPage({
-            path: `/author/${_.kebabCase(author)}/`,
-            component: authorPage,
-            context: {
-              author
             }
           });
         });
