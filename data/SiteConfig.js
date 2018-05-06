@@ -21,7 +21,6 @@ module.exports = {
     "https://twitter.com/eddielee6",
     "https://www.linkedin.com/in/eddielee6"
   ],
-  postDefaultCategoryID: "tech", // Default category for posts.
   copyright: {
     label: "Eddie Lee"
   },
