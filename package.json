@@ -1,8 +1,7 @@
 {
-  "name": "gatsby-starter-casper",
-  "description": "GatsbyJS starter that themed with the Casper theme from Ghost.",
-  "version": "1.0.7",
-  "author": "Hays Clark <hays.clark@gmail.com>",
+  "name": "eddieleeme",
+  "description": "Blog at eddielee.me",
+  "version": "0.0.0",
   "dependencies": {
     "babel-eslint": "^8.1.2",
     "babel-plugin-lodash": "^3.2.11",
@@ -59,13 +58,6 @@
     "stylelint-config-standard": "^17.0.0",
     "write-good": "^0.11.3"
   },
-  "keywords": [
-    "gatsby",
-    "blog",
-    "casper",
-    "starter"
-  ],
-  "license": "MIT",
   "main": "n/a",
   "scripts": {
     "develop": "gatsby develop",
