@@ -1,7 +1,7 @@
 ---
 title: "We Give a F*** How the Site Loads"
 cover: "https://unsplash.it/1152/300/?random?FuckCss"
-date: "2013-07-13T23:29"
+date: "2013-08-13T22:57"
 author: "eddie"
 slug: "we-give-a-f-how-the-site-loads"
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "Fatherhood"
 cover: "https://unsplash.it/1152/300/?random?Fatherhood"
-date: "2013-07-13T23:29"
+date: "2013-07-31T23:29"
 author: "eddie"
 slug: "fatherhood"
 tags:
