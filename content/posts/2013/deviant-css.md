@@ -6,6 +6,7 @@ author: "eddie"
 slug: "we-give-a-f-how-the-site-loads"
 tags:
  - code
+ - quote post
 ---
 Looks like some people have been having difficulty with deviantART recently. The site has been loading, but not the CSS.
 
