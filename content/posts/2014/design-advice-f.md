@@ -17,7 +17,7 @@ tags:
 
 ![Learn to take some fucking criticism.](/images/design-advice-criticism.jpg)
 
-![Constantly fucking challenge yourself.](/images/design-advice-challange-yourself.gif)
+![Constantly fucking challenge yourself.](/images/design-advice-challange-yourself.jpg)
 
 ![Use fucking Helvetica.](/images/design-advice-helvetica.jpg)
 
