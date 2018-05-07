@@ -13,7 +13,7 @@ tags:
 
 A very sad day. Carrie Fisher: Princess Leia; General Leia Organa - [died today](http://www.bbc.co.uk/news/entertainment-arts-38446753) aged 60.
 
-![Princess Leia Organa](/images/leia.jpeg)
+![Princess Leia Organa](/images/leia.jpg)
 
 *"I tell my younger friends that no matter how I go, I want it reported that I drowned in moonlight, strangled by my own bra."* - [Carrie Fisher](http://www.vanityfair.com/hollywood/2016/12/carrie-fisher-dies-strangled-by-bra-wishful-drinking)
 
