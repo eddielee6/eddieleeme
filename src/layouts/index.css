@@ -747,3 +747,7 @@ button {
         margin: 2rem auto;
     }
 }
+
+.post-content img {
+    max-width: 100%;
+}
