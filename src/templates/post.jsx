@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import moment from "moment";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import MainHeader from "../layouts/MainHeader/MainHeader";
@@ -12,14 +13,12 @@ import SiteWrapper from "../layouts/SiteWrapper/SiteWrapper";
 import MainContent from "../layouts/MainContent/MainContent";
 import PostHeader from "../layouts/PostHeader/PostHeader";
 import PostFormatting from "../layouts/PostFormatting/PostFormatting";
-import PostDate from "../components/PostDate/PostDate";
 import PostFooter from "../layouts/PostFooter/PostFooter";
 import AuthorImage from "../components/AuthorImage/AuthorImage";
 import AuthorInfo from "../components/AuthorInfo/AuthorInfo";
 import PostShare from "../components/PostShare/PostShare";
 import GhostSubscribe from "../components/GhostSubscribe/GhostSubscribe";
 import ReadNext from "../components/ReadNext/ReadNext";
-import PostTags from "../components/PostTags/PostTags";
 import Footer from "../components/Footer/Footer";
 import AuthorModel from "../models/author-model";
 import Disqus from "../components/Disqus/Disqus";
@@ -71,7 +70,7 @@ class PostTemplate extends React.Component {
     const { slug, next, prev } = this.props.pathContext;
     const postNode = this.props.data.markdownRemark;
     const post = parsePost(postNode.frontmatter, slug);
-    const { cover, title, date, author, tags } = post;
+    const { cover, title, date, author } = post;
     const className = post.post_class ? post.post_class : "post";
     const authorData = AuthorModel.getAuthor(
       this.props.data.authors.edges,
@@ -106,8 +105,12 @@ class PostTemplate extends React.Component {
               <PostHeader>
                 <h1 className="post-title">{title}</h1>
                 <section className="post-meta">
-                  <PostDate date={date} />
-                  <PostTags prefix=" on " tags={tags} />
+                  <time
+                    className="inline-post-date"
+                    dateTime={moment(new Date(date)).format("YYYY-MM-DD")}
+                  >
+                    {moment(new Date(date)).format("DD MMMM YYYY")}
+                  </time>
                 </section>
               </PostHeader>
 

@@ -78,13 +78,6 @@ div.page-template .post-title {
     margin: 0;
 }
 
-.post-template .post-date,
-.page-template .post-date {
-    padding: 0;
-    margin: 0;
-    border: none;
-}
-
 /* Tweak the .post wrapper style */
 .post-template .post,
 .page-template .post {

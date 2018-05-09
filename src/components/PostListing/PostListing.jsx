@@ -1,12 +1,9 @@
 import React from "react";
 import Link from "gatsby-link";
-import AuthorThumbnail from "../AuthorThumbnail/AuthorThumbnail";
-import PostTags from "../PostTags/PostTags";
+import moment from "moment";
 import SiteConfig from "../../../data/SiteConfig";
-import AuthorLink from "../AuthorLink/AuthorLink";
 import PostFormatting from "../../layouts/PostFormatting/PostFormatting";
 import PostHeader from "../../layouts/PostHeader/PostHeader";
-import PostDate from "../PostDate/PostDate";
 import AuthorModel from "../../models/author-model";
 import "./PostListing.css";
 
@@ -34,7 +31,7 @@ class PostListing extends React.Component {
       <div>
         {/* This is the post loop - each post will be output using this markup */}
         {postList.map(post => {
-          const { title, path, excerpt, author, tags, date } = post;
+          const { title, path, excerpt, date } = post;
           const className = post.post_class ? post.post_class : "post";
 
           return (
@@ -54,10 +51,12 @@ class PostListing extends React.Component {
                 </p>
               </section>
               <footer className="post-meta">
-                <AuthorThumbnail avatar={author.image} name={author.name} />
-                <AuthorLink url={`/author/${author.id}`} name={author.name} />
-                <PostTags prefix=" on " tags={tags} />
-                <PostDate date={date} />
+                <time
+                  className="inline-post-date"
+                  dateTime={moment(new Date(date)).format("YYYY-MM-DD")}
+                >
+                  {moment(new Date(date)).format("DD MMMM YYYY")}
+                </time>
               </footer>
             </PostFormatting>
           );
