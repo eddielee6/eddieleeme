@@ -13,7 +13,7 @@ module.exports = {
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssAuthor: "Eddie Lee", // The author name used in the RSS file
   // siteFBAppID: "1825356251115265", // optional, sets the FB Application ID for using app insights
-  sitePaginationLimit: 10, // The max number of posts per page.
+  sitePaginationLimit: 5, // The max number of posts per page.
   googleAnalyticsID: "UA-82839889-1", // GA tracking ID.
   siteSocialUrls: [
     "/",   
