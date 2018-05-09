@@ -7,7 +7,7 @@ slug: "whats-new-in-javascript"
 tags:
  - meetup
  - personal
- - JavaScript
+ - javascript
 ---
 Last Monday I did my public first talk outside of work life. A short 20 minute presentation on modern JavaScript features at a local .net developer meet-up - [dot net notts](https://www.meetup.com/dotnetnotts/events/226457574/).
 
