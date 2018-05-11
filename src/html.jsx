@@ -2,7 +2,6 @@
 /* eslint import/extensions:"off" */
 /* eslint global-require:"off" */
 import React from "react";
-import favicon from "./favicon.png";
 
 let inlinedStyles = "";
 if (process.env.NODE_ENV === "production") {
@@ -50,7 +49,15 @@ export default class HTML extends React.Component {
           />
 
           {this.props.headComponents}
-          <link rel="shortcut icon" href={favicon} />
+          <link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png" />
+          <link rel="manifest" href="/fav/site.webmanifest" />
+          <link rel="mask-icon" href="/fav/safari-pinned-tab.svg" color="#ba3a34" />
+          <link rel="shortcut icon" href="/fav/favicon.ico" />
+          <meta name="msapplication-TileColor" content="#da532c" />
+          <meta name="msapplication-config" content="/fav/browserconfig.xml" />
+          <meta name="theme-color" content="#ffffff" />
           {css}
         </head>
         <body>
