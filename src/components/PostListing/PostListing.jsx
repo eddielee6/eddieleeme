@@ -19,7 +19,7 @@ const getPostList = (postEdges, authorEdges) =>
       postEdge.node.frontmatter.author,
       SiteConfig.blogAuthorId
     ),
-    excerpt: postEdge.node.excerpt,
+    html: postEdge.node.html,
     timeToRead: postEdge.node.timeToRead
   }));
 
@@ -31,7 +31,7 @@ class PostListing extends React.Component {
       <div>
         {/* This is the post loop - each post will be output using this markup */}
         {postList.map(post => {
-          const { title, path, excerpt, date } = post;
+          const { title, path, date } = post;
           const className = post.post_class ? post.post_class : "post";
 
           return (
@@ -41,22 +41,19 @@ class PostListing extends React.Component {
                   <Link to={path}>{title}</Link>
                 </h2>
               </PostHeader>
-              <section className="post-excerpt">
-                {/* TODO limit excerpt to 26 words */}
-                <p>
-                  {excerpt}{" "}
-                  <Link className="read-more" to={path}>
-                    &raquo;
-                  </Link>
-                </p>
-              </section>
+              <section
+                className="post-content"
+                dangerouslySetInnerHTML={{ __html: post.html }}
+              />
               <footer className="post-meta">
-                <time
-                  className="inline-post-date"
-                  dateTime={moment(new Date(date)).format("YYYY-MM-DD")}
-                >
-                  {moment(new Date(date)).format("DD MMMM YYYY")}
-                </time>
+                <Link to={path}>
+                  <time
+                    className="inline-post-date"
+                    dateTime={moment(new Date(date)).format("YYYY-MM-DD")}
+                  >
+                    {moment(new Date(date)).format("DD MMMM YYYY")}
+                  </time>
+                </Link>
               </footer>
             </PostFormatting>
           );
