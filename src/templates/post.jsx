@@ -21,7 +21,6 @@ import GhostSubscribe from "../components/GhostSubscribe/GhostSubscribe";
 import ReadNext from "../components/ReadNext/ReadNext";
 import Footer from "../components/Footer/Footer";
 import AuthorModel from "../models/author-model";
-import Disqus from "../components/Disqus/Disqus";
 
 function parsePost(post, slug) {
   const result = post;
@@ -128,7 +127,6 @@ class PostTemplate extends React.Component {
                   config={config}
                 />
                 <GhostSubscribe />
-                <Disqus postNode={postNode} />
               </PostFooter>
             </PostFormatting>
           </MainContent>
