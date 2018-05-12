@@ -9,6 +9,7 @@
 <url> <loc>https://eddielee.me/7</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://eddielee.me/8</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://eddielee.me/9</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://eddielee.me/lego-saturn-v-rocket</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://eddielee.me/hello-gatsby</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://eddielee.me/there-is</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://eddielee.me/2017-a-year-in-review</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -50,6 +51,11 @@
 <url> <loc>https://eddielee.me/we-give-a-f-how-the-site-loads</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://eddielee.me/fatherhood</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://eddielee.me/wasted-effort</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://eddielee.me/tags/lego/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://eddielee.me/tags/nasa/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://eddielee.me/tags/space/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://eddielee.me/tags/rocket/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://eddielee.me/tags/stem/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://eddielee.me/tags/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://eddielee.me/tags/react/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://eddielee.me/tags/github/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -65,7 +71,6 @@
 <url> <loc>https://eddielee.me/tags/podcasts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://eddielee.me/tags/media/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://eddielee.me/tags/raspberry-pi/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://eddielee.me/tags/lego/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://eddielee.me/tags/nodejs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://eddielee.me/tags/javascript/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://eddielee.me/tags/linux/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
