@@ -759,3 +759,8 @@ button {
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
 }
+
+.post-content .image-split td {
+    background: transparent;
+    border: none;
+}
