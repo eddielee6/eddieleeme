@@ -1,0 +1,28 @@
+.error-container {
+    box-sizing: border-box;
+    display: table;
+    width: 100%;
+    height:100vh;
+    background-image: url('https://picsum.photos/1890/1050/?random&blur');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.error-content {
+    box-sizing: border-box;
+    width: 30%;
+    padding: 3em;
+    margin: 30vh auto;
+    text-align: center;
+    background: #fff;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 500px) {
+    .error-content {
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+    }
+}
