@@ -20,7 +20,7 @@ Well it’s just over a year and a half since I [moved this blog from Tumblr to 
 
 What I wanted was a way to host the site for free (preferably with SSL), be able to easily import markdown posts from Bear, not have to worry about backups, and be able to change the sites theme with ease.
 
-Introducing [Gatsby](https://github.com/eddielee6/SleepyMoon), a static site generator for React. Gatsby can take in my markdown files, run them through a build process using a template written in React (much easier for me to change), and outputs static html that I can host almost anywhere. Backups are also a thing of the past as the posts are now stored in GitHub.
+Introducing [Gatsby](https://www.gatsbyjs.org), a static site generator for React. Gatsby can take in my markdown files, run them through a build process using a template written in React (much easier for me to change), and outputs static html that I can host almost anywhere. Backups are also a thing of the past as the posts are now stored in GitHub.
 
 ![Gatsby Diagram](/images/gatsby-diagram.png)
  
