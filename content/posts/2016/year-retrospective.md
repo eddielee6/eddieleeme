@@ -49,7 +49,7 @@ At the start of the year I set out along with [Tanner](https://twitter.com/tanne
 In July I left my job of 5 years. I will really miss working on [Care Partner](http://carepartner.eu) and all the great people at [FACE](http://face.eu.com), but it was time to move on. In somewhat a departure from full stack .NET, I’m now a front-end engineer at [Capital One](http://www.capitalone.co.uk) and I’m really enjoying the new challenge.
 
 ## A growing family
-August brought the most important and exciting event of the year, the birth of my daughter; Aurora. She's a fantastic addition to our little family, and spending time with her, Ethan, Lauren, and the rest of my family is much more important than any app.
+August brought the most important and exciting event of the year, the birth of my daughter; Aurora. Spending time with her and Ethan is much more important than any app.
 
 ![Aurora](/images/retrospective-aurora.jpg)
 

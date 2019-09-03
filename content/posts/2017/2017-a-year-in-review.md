@@ -13,11 +13,10 @@ Following [last years post](http://eddielee.me/its-been-a-year-a-retrospective/)
 **Family**
 
 ![Our house](/images/2017-review-house.jpg)
-The overwhelming highlight of this year has been buying and moving into our first family home. But this wasn’t the only crazy change or achievement the year had to offer. Lauren got a new job, I got promoted, Ethan started School, Aurora started Nursery, and we got our first car.
+The overwhelming highlight of this year has been buying and moving into our first home. But this wasn’t the only crazy change or achievement the year had to offer. Ethan started School, Aurora started Nursery, and I got promoted.
 
 **Fun**
 
-![Our family](/images/2017-review-family.jpg)
 With all this it's surprising we had any time for fun, but along with our summer holiday and numerous trips to Thomas Land we managed quite a lot. I even managed to see a whole load of my favourite bands; Blink 182, Green Day, Weezer and Good Charlotte - all in one year.
 
 **Apps**

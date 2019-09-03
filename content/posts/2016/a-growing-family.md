@@ -8,7 +8,7 @@ tags:
  - family
  - personal
 ---
-Today we welcome a new addition to the family; our daughter Aurora was born this morning at 03:17AM.
+Today we welcome a new addition to the family; my daughter Aurora was born this morning at 03:17AM.
 
 ![Aurora and Ethan](/images/aurora-and-ethan.jpg)
 
